@@ -1,5 +1,5 @@
 # 4Play
-This project is inspired in a portuguese serie called [4Play](http://media.rtp.pt/4play/).
+This project is inspired in a portuguese serie called [4Play](http://media.rtp.pt/4play/).  
 ![4Play](https://upload.wikimedia.org/wikipedia/pt/9/93/4Play.png)
 
 ## Project Contextualization
