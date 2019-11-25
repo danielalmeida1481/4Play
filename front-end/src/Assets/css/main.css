@@ -1,0 +1,224 @@
+:root {
+    --backColor: rgb(3,15,23);
+    --textColor: rgb(255,255,255);
+
+    --pinkColor: rgb(233,67,105);
+
+    --font: 'Big Shoulders Display', cursive;
+
+    --rowColor: rgb(7, 27, 39);
+}
+
+.sidebar {
+    background-color: var(--rowColor);
+}
+
+.t-pink-color {
+    color: var(--pinkColor);
+}
+
+.spinner-default {
+    color: var(--pinkColor);
+}
+
+.a-default {
+    color: var(--textColor);
+}
+
+.a-default:hover {
+    color: rgba(255,255,255, 0.3);
+}
+
+.row-default {
+    border-radius: 5px !important;
+}
+
+.row-default {
+    background-color: rgb(7, 27, 39);
+    padding: 15px;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0 rgb(0, 0, 0);
+}
+
+.btn-play,
+.btn-default {
+    color: var(--textColor);
+    background-color: var(--pinkColor);
+}
+
+.btn-outline-default {
+    color: var(--textColor);
+    border-color: var(--pinkColor);
+}
+
+.btn-outline-default:hover {
+    background-color: var(--pinkColor);
+}
+
+.btn-play {
+    font-size: 30px;
+    padding: 10px 13px 10px 13px;
+    border-radius: 100% !important;
+}
+
+.t-color {
+    color: var(--textColor);
+}
+
+.t-title {
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+
+body {
+    background-color: var(--backColor);
+    color: var(--textColor);
+    font-family: var(--font);
+
+    letter-spacing: 1px;
+}
+
+.h-100-force {
+    height: 100vh !important;
+}
+
+.capitalize {
+    text-transform: uppercase;
+}
+
+.vertical-center {
+    align-items: center;
+    align-self: center;
+}
+
+.t-right {
+    text-align: right;
+}
+
+.t-center {
+    text-align: center;
+}
+
+
+@media (min-width: 768px) {
+    .t-md-right {
+        text-align: right;
+    }
+}
+
+@media (max-width: 768px) {
+    .t-mmd-center {
+        text-align: center;
+    }
+}
+
+
+
+.div-errors {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.div-errors > p {
+    color: red;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+
+
+
+.navbar-default {
+    background-color: var(--rowColor);
+}
+
+
+
+.profile-name {
+    font-size: 30px;
+    margin: 0;
+    color: var(--pinkColor);
+}
+
+
+
+
+
+.profile-badge {
+    margin: 0 15px 0 15px;
+    text-align: center;
+}
+
+.profile-badge > .fas,
+.profile-badge > .fab {
+    font-size: 80px;
+}
+
+.profile-badge > p {
+    margin-top: 15px;
+    color: var(--pinkColor);
+}
+
+
+.table-default {
+    color: var(--textColor);
+}
+
+.table-default > thead {
+    background-color: var(--pinkColor);
+}
+
+
+
+
+.card-default {
+    background-color: var(--rowColor);
+}
+
+
+
+.t-50px {
+    font-size: 50px;
+}
+
+
+.row-title {
+    border-left: var(--pinkColor) 2px solid;
+    text-transform: uppercase;
+
+    padding-left: 10px;
+    
+    color: var(--textColor);
+    font-size: 30px;
+}
+
+
+.rowComp {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rowComp > div[class*='col-'] {
+    display: flex;
+}
+
+
+
+.react-grouper {  
+    margin-bottom: 15px;
+}
+
+.react-grouper > div {
+    margin-top: 15px;
+}
+
+
+
+
+.v-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}

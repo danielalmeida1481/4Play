@@ -1,0 +1,19 @@
+{
+  "name": "4play",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "all": "start cmd.exe /k npm run server & start cmd.exe /k npm run website",
+
+    "website": "cd front-end && npm run start",
+    "server": "nodemon --watch back-end back-end/server.js"
+  },
+  "author": "Daniel Almeida",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}

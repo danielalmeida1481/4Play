@@ -1,0 +1,27 @@
+.dropdown-item:active,
+.dropdown-item:focus {
+    background-color: var(--pinkColor);
+    color: var(--textColor);
+}
+
+.dropdown-toggle:hover {
+    cursor: pointer !important;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.form-control {
+    color: var(--textColor) !important;
+    border-color: rgba(71, 71, 71, 0.1) !important;
+    background-color: rgba(3, 15, 23, .5) !important;
+}
